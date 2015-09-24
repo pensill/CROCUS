@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Консалтинг СНГ</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__inner container-fluid">
+      <div class="row">
+        <div class="col-md-11">
+          <img src="img/logo.png" alt="" class="page-header__logo">
+          <a class="page-header__info" href="#">Информатор</a>
+        </div>
+        <div class="col-md-1">
+          <a class="page-header__inter" href="#">Вход</a>
+        </div>
+      </div> <!-- row end -->
+     </div>
+  </header>
+  <main>
+    <h1>Проверка контрагента</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="search">
+            <form>
+              <i class="search__help"></i><input type="search">
+              <input type="submit" class="" value="Найти">
+              <div class="search__update">
+                <p>Последнее обновление: <span>Сегодня, 12:01</span></p>
+              </div>
+              <div class="search__info  animated">
+                <i class="search__close"></i>
+                <p>Введите любые известные вам данные, например ИНН, ОГРН, название компании или ФИО индивидуального предпринимателя, ФИО руководителя или учредителя</p>
+              </div>
+            </form>
+          </div> <!-- search end -->
+        </div>
+      </div> <!-- row end -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-1">
+          <div class="result">
+            <div class="result__company-name">
+              <h2>ООО «Яндекс»</h2>
+              <p>Общество с ограниченной ответственностью "ЯНДЕКС"</p>
+              <div class="result__company-eng">
+                <p><span>Eng</span> Yanex LLC</p>
+              </div>
+            </div>
+            <p class="result__positively">Действующее предприятие</p>
+            <div class="company-info__container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="company-info">
+                    <div class="company-info__left">
+                      <p>ИНН</p>
+                      <p>КПП</p>
+                      <p>ОГРН</p>
+                      <p>ОКПО</p>
+                    </div>
+                    <div class="company-info__right">
+                      <p>7736207543</p>
+                      <p>770401001</p>
+                      <p>1027700229193</p>
+                      <p>55187675</p>
+                    </div>
+                    <p>Дата образования: 14 сентября 2000</p>
+                  </div> 
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                  <div class="company-contact">
+                    <div class="company-contact__adress">
+                      <p>119021</p>
+                      <p>г. Москва, ул Льва Толстого, 16</p>
+                    </div>
+                    <div class="company-contact__tel"> 
+                      <p>Тел.: +7 (123) 456-78-90 доб. 1234</p>
+                      <p>Факс: +7 (123) 456-78-90 доб. 1234</p>
+                    </div>
+                  </div> <!-- result__company-contact end -->
+                </div>
+              </div> <!-- row end -->
+            </div>
+            <p class="result__positively">Есть GLN-номер: 123456789012 <a href="#">Смотреть в GEPIR</a></p>
+            <h3>Генеральный директор</h3>
+            <p class="director">Константинопольский Константин Константинович</p>
+            <div class="detail-info">
+              <h3>Виды экономической деятельности</h3>
+              <p class="dedicated-views"><span>73.10</span> Научные исследования и разработки в области естественных и технических...</p>
+              <p><span>60.20</span> Деятельность в области электросвязи</p>
+              <p><span>60.20.3</span> Прочая деятельность в области электросвязи</p>
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Показать все</a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p><span>60.20</span> Деятельность в области электросвязи</p>
+                      <p><span>60.20.3</span> Прочая деятельность в области электросвязи</p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- accordion end -->
+            </div> <!-- detail-info end -->
+            <div class="detail-info">
+              <h3>Учредители</h3>
+              <p class="detail-info__not-span">Уставный капитал:<strong>100 500 руб.</strong></p>
+              <p><span>50%</span>Констнтинопольский Константин Константинович </p>
+              <span class="amount">50 250 руб.</span>
+              <p><span>60.20.3</span>Констнтинопольский Анатолий Константинович </p>
+              <span class="amount">50 250 руб.</span> 
+            </div> <!-- detail-info end -->
+          </div> <!-- result end -->
+        </div> <!-- col-md-10 end -->
+        <div class="col-md-3">
+          <aside>
+            <div class="add-info">
+              <div class="add-info__left">
+                <i></i>
+              </div>
+              <div class="add-info__right">
+                <a href="#">Добавить контрагента</a>
+                <p>Добавить в список контрагентов Курер и EDI</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div> <!-- row end -->
+    </div>
+  </main>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
